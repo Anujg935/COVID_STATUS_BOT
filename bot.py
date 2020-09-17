@@ -78,7 +78,7 @@ def moreNews(bot,update):
         bot.sendMessage(chat_id=chat_id,text="First use /newsHeadLines\n",parse_mode='HTML')
   
 def main():
-    updater = Updater('Your telegram bot API token')
+    updater = Updater('1076226403:AAEg66n-b5A14EIG_yuTr26j6sNeLatNQs8')
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start',start))
     dp.add_handler(CommandHandler('help',hel))
